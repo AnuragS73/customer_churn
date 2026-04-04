@@ -58,7 +58,9 @@ Acquiring new customers is significantly more expensive than retaining existing 
 
 ## 📸 App Preview
 
-*Add your app screenshots here (recommended for better visibility)*
+*
+<img width="1812" height="805" alt="image" src="https://github.com/user-attachments/assets/46933ac1-dd74-4fb5-a642-63cf81c17df9" />
+*
 
 ---
 
