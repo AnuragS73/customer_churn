@@ -1,37 +1,38 @@
 # 📊 Telecom Customer Churn Prediction App
 
-🚀 A production-ready **Machine Learning Web App** built using **Streamlit** to predict customer churn in the telecom industry.
-This application helps businesses identify high-risk customers and take proactive retention actions.
+🚀 This is a **personal project** built to strengthen my skills in **Machine Learning, Data Analysis, and Model Deployment**. The application predicts whether a telecom customer is likely to churn based on various features.
 
 ---
 
 ## 🌐 Live Demo
 
 🔗 **Live App:** https://customerchurnas73.streamlit.app/<br>
-💻 **GitHub Repo:** https://github.com/AnuragS73
+💻 **GitHub Repo:** https://github.com/AnuragS73/customer_churn
 
 ---
 
-## 🎯 Problem Statement
+## 🎯 Objective
 
-Customer churn is one of the biggest challenges in the telecom industry.
-Acquiring new customers is significantly more expensive than retaining existing ones.
+The goal of this project is to:
 
-👉 This project aims to:
-
-* Predict whether a customer is likely to churn
-* Provide probability-based insights
-* Enable data-driven decision making
+* Apply end-to-end data science workflow
+* Practice data preprocessing and feature engineering
+* Build a classification model for churn prediction
+* Deploy the model using Streamlit
+* Create a user-friendly interactive dashboard
 
 ---
 
-## 🧠 Machine Learning Approach
+## 🧠 What I Learned
+
+Through this project, I gained hands-on experience in:
 
 * ✔️ Data Cleaning & Preprocessing
-* ✔️ Feature Engineering (Tenure Bucketing, Encoding)
-* ✔️ Model Training (Classification Model)
-* ✔️ Probability Threshold Optimization
-* ✔️ Model Serialization using `joblib`
+* ✔️ Feature Engineering (e.g., tenure bucketing)
+* ✔️ Machine Learning model building
+* ✔️ Threshold tuning for better decision making
+* ✔️ Model deployment using Streamlit
+* ✔️ Creating interactive dashboards
 
 ---
 
@@ -39,35 +40,26 @@ Acquiring new customers is significantly more expensive than retaining existing 
 
 * **Frontend/UI:** Streamlit
 * **Backend:** Python
-* **ML Libraries:** Scikit-learn, Pandas, NumPy
-* **Model Deployment:** Streamlit Community Cloud
+* **Libraries:** Pandas, NumPy, Scikit-learn, Joblib
+* **Deployment:** Streamlit Community Cloud
 * **Version Control:** Git & GitHub
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-✅ Interactive user-friendly dashboard
-✅ Real-time churn prediction
-✅ Probability-based output
-✅ Custom threshold logic
-✅ Clean and modern UI (white theme)
-✅ Fully deployed web application
-
----
-
-## 📸 App Preview
-
-*
-<img width="1812" height="805" alt="image" src="https://github.com/user-attachments/assets/46933ac1-dd74-4fb5-a642-63cf81c17df9" />
-*
+* 🔹 Interactive UI for user input
+* 🔹 Real-time churn prediction
+* 🔹 Probability-based output
+* 🔹 Custom decision threshold
+* 🔹 Clean and modern dashboard design
 
 ---
 
 ## 📂 Project Structure
 
-```
-customer-churn/
+```plaintext
+churn-app/
 │
 ├── app.py                         # Streamlit application
 ├── model.pkl                      # Trained ML model
@@ -77,6 +69,21 @@ customer-churn/
 ├── requirements.txt               # Dependencies
 └── README.md                      # Project documentation
 ```
+
+---
+
+## 📊 Dataset
+
+This project uses telecom customer data:
+
+* **customer_churn.csv** → Raw dataset
+* **customer_churn_cleaned.csv** → Processed dataset after EDA
+
+### Data Processing Includes:
+
+* Handling missing values
+* Feature engineering
+* Data transformation for model readiness
 
 ---
 
@@ -98,63 +105,49 @@ streamlit run app.py
 
 ---
 
-## 📊 Input Features
-
-The model uses key customer attributes such as:
-
-* Demographics (Gender, Senior Citizen, Dependents)
-* Account Info (Tenure, Contract Type)
-* Services (Internet, Streaming, Security, etc.)
-* Billing (Payment Method, Charges)
-
----
-
 ## 📈 Output
 
-* 🔹 **Churn Probability Score**
-* 🔹 **Threshold Comparison**
-* 🔹 **Final Prediction (High Risk / Low Risk)**
+The app provides:
+
+* 🔹 Churn Probability Score
+* 🔹 Threshold comparison
+* 🔹 Final prediction (High Risk / Low Risk)
 
 ---
 
-## 💡 Business Impact
+## 💡 Motivation
 
-This solution can help companies:
+This project was created as part of my learning journey to:
 
-* Reduce customer churn
-* Improve retention strategies
-* Increase revenue
-* Enhance customer experience
+* Improve practical ML skills
+* Understand real-world business problems
+* Build deployable data science solutions
 
 ---
 
 ## 🔮 Future Improvements
 
-* 📊 Add SHAP Explainability
-* 📉 Feature Importance Visualization
+* 📊 Add model explainability (SHAP)
+* 📉 Feature importance visualization
+* 📱 Improve UI/UX further
+* 🔗 API integration
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 About Me
 
 **Anurag Sarkar**
 📊 Data Analyst | Aspiring Data Scientist
 
-🔗 LinkedIn: https://www.linkedin.com/in/anusarsarkar73/<br>
+🔗 LinkedIn: https://www.linkedin.com/in/anusarsarkar73/
 🔗 GitHub: https://github.com/AnuragS73
 
 ---
 
 ## ⭐ Support
 
-If you found this project useful, please ⭐ the repository!
+If you found this project helpful, feel free to ⭐ the repository!
 
 ---
 
-## 📬 Feedback
-
-Feel free to open issues or reach out for suggestions and improvements.
-
----
-
-🚀 *Turning Data into Actionable Insights*
+🚀 *Learning by Building Real-World Projects*
