@@ -130,9 +130,6 @@ This solution can help companies:
 
 * 📊 Add SHAP Explainability
 * 📉 Feature Importance Visualization
-* 📱 Mobile Optimization
-* 🔗 API Integration
-* 📦 Docker Deployment
 
 ---
 
@@ -141,7 +138,7 @@ This solution can help companies:
 **Anurag Sarkar**
 📊 Data Analyst | Aspiring Data Scientist
 
-🔗 LinkedIn: https://www.linkedin.com/in/anusarsarkar73/
+🔗 LinkedIn: https://www.linkedin.com/in/anusarsarkar73/<br>
 🔗 GitHub: https://github.com/AnuragS73
 
 ---
