@@ -7,7 +7,7 @@ This application helps businesses identify high-risk customers and take proactiv
 
 ## 🌐 Live Demo
 
-🔗 **Live App:** https://customerchurnas73.streamlit.app/
+🔗 **Live App:** https://customerchurnas73.streamlit.app/<br>
 💻 **GitHub Repo:** https://github.com/AnuragS73
 
 ---
@@ -65,17 +65,15 @@ Acquiring new customers is significantly more expensive than retaining existing 
 ## 📂 Project Structure
 
 ```
-churn-app/
+customer-churn/
 │
 ├── app.py                         # Streamlit application
 ├── model.pkl                      # Trained ML model
 ├── threshold.pkl                  # Optimal threshold
+├── customer_churn.csv             # Raw dataset
+├── customer_churn_cleaned.csv     # Cleaned dataset after EDA
 ├── requirements.txt               # Dependencies
-├── README.md                      # Project documentation
-│
-├── data/                          # 📁 Data folder
-│   ├── customer_churn.csv         # Raw dataset
-│   └── customer_churn_cleaned.csv # Cleaned dataset after EDA
+└── README.md                      # Project documentation
 ```
 
 ---
@@ -84,10 +82,10 @@ churn-app/
 
 ```bash
 # Clone the repository
-git clone https://github.com/AnuragS73/churn-prediction-app.git
+git clone https://github.com/AnuragS73/customer_churn.git
 
 # Navigate to folder
-cd churn-prediction-app
+cd customer_churn
 
 # Install dependencies
 pip install -r requirements.txt
