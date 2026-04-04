@@ -139,7 +139,7 @@ This project was created as part of my learning journey to:
 **Anurag Sarkar**
 📊 Data Analyst | Aspiring Data Scientist
 
-🔗 LinkedIn: https://www.linkedin.com/in/anusarsarkar73/
+🔗 LinkedIn: https://www.linkedin.com/in/anusarsarkar73/<br>
 🔗 GitHub: https://github.com/AnuragS73
 
 ---
