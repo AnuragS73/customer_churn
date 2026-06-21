@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Live App:** https://customerchurnas73.streamlit.app/<br>
+🔗 **Live App:** https://customerchurn-anurags73.streamlit.app//<br>
 💻 **GitHub Repo:** https://github.com/AnuragS73/customer_churn
 
 ---
